@@ -8,6 +8,7 @@ VOLUME $FIREFLY_PATH/storage/export $FIREFLY_PATH/storage/upload
 
 # Install some stuff
 RUN apt-get update && apt-get install -y libpng-dev \
+                                            language-pack-zh-hans-base \
                                             libicu-dev \
                                             unzip \
                                             gettext-base \
